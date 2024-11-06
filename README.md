@@ -36,8 +36,12 @@ Dashboard interaktif yang menampilkan:
 - Statsmodels
 
 ## 🚀 Cara Menjalankan
-1. Install requirements: `pip install -r requirements.txt`
-2. Jalankan dashboard: `streamlit run dashboard.py`
+1. Install requirements: 
+   
+   `pip install -r requirements.txt`
+2. Jalankan dashboard: 
+   
+   `streamlit run dashboard.py`
 
 ## 📝 Dataset
 Dataset berisi informasi penyewaan sepeda per jam dan harian selama 2011-2012, termasuk:
