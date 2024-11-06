@@ -70,3 +70,7 @@ Dataset sepeda yang digunakan dalam proyek ini berasal dari penelitian di atas y
 
 Penelitian tersebut menggabungkan teknik deteksi peristiwa dan pengetahuan latar belakang untuk mengidentifikasi dan melabeli peristiwa-peristiwa penting yang mempengaruhi pola penyewaan sepeda. Metodologi yang digunakan memberikan wawasan berharga tentang bagaimana faktor eksternal seperti cuaca, hari libur, dan acara khusus dapat mempengaruhi perilaku pengguna sistem berbagi sepeda.
 
+
+
+## 🌐 Link Streamlit
+[Dashboard](https://bikesharingdashboard-9jvfcx3f6m6kpamaweqixy.streamlit.app/)
