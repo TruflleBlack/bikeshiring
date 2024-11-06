@@ -62,6 +62,10 @@ st.markdown("""
         .value-green { color: #4ecdc4; }
         .value-blue { color: #45b7d1; }
         .value-teal { color: #96ceb4; }
+        img {
+            max-width: 100%; /* Logo tidak akan lebih besar dari kontainer */
+            height: auto; /* Menjaga rasio aspek */
+        }
     </style>
 """, unsafe_allow_html=True)
 
