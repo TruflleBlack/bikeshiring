@@ -178,7 +178,7 @@ def style_plot(fig):
     return fig
 
 # Tabs
-tab1, tab2, tab3, tab4, tab5, tab6, overview_tab = st.tabs([
+overview_tab, tab1, tab2, tab3, tab4, tab5, tab6  = st.tabs([
     "📊 Overview",
     "📈 Tren & Pola Penyewaan",
     "🌤️ Analisis Musiman & Cuaca",
