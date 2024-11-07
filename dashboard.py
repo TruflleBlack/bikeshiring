@@ -178,13 +178,14 @@ def style_plot(fig):
     return fig
 
 # Tabs
-tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+tab1, tab2, tab3, tab4, tab5, tab6, overview_tab = st.tabs([
     "📈 Tren & Pola Penyewaan",
     "🌤️ Analisis Musiman & Cuaca",
     "📊 Perbandingan Hari",
     "🔍 Korelasi & Insight",
     "🕒 Analisis Per Jam",
-    "🎯 Performa Bulanan"
+    "🎯 Performa Bulanan",
+    "📊 Overview"
 ])
 
 # Color scheme
@@ -397,3 +398,11 @@ with tab6:
         - Januari-Februari menunjukkan performa terendah
         - Tren musiman terlihat jelas dalam pola bulanan
     """)
+
+# Tab Overview
+with overview_tab:
+    st.markdown("""
+        <h2 style='text-align: center; color: #ffffff;'>📊 Overview</h2>
+        <p style='text-align: center; color: #cccccc;'>Selamat datang di dashboard analisis berbagi sepeda. Di sini Anda dapat menemukan berbagai analisis dan visualisasi data terkait penyewaan sepeda.</p>
+        <p style='text-align: center; color: #cccccc;'>Gunakan menu di atas untuk menjelajahi tren, analisis musiman, perbandingan hari, dan banyak lagi.</p>
+    """, unsafe_allow_html=True)
